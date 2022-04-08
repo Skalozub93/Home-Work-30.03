@@ -75,6 +75,74 @@ using namespace std;
 //	}
 //	cout << a;
 //}
+//void prime(int n)
+//{
+//	bool c = 0;
+//	for (int i = 2; i < n; i++)
+//	{
+//		if (n % i == 0)
+//		{
+//			c = 1;
+//			break;
+//		}
+//	}
+//	if (c) cout << "Not Prime";
+//	else cout << "Prime" << endl;
+//}
+//int Func(int a, int b)
+//{
+//	int Sum = 0;
+//
+//	for (int i = a; i <= b; i++)
+//	{
+//		Sum += i;
+//	}
+//	return Sum;
+//}
+
+//int sum(int ar[], int g)
+//{
+//	int sum1 = 0;
+//	for (int i = 0; i < g; i++)
+//	{
+//		sum1 += ar[i];
+//	}
+//	return sum1 / g;
+//}
+
+//void MaxMin(int ar[], int f)
+//{
+//	int Max = ar[0];
+//	int Min = ar[0];
+//	int imin = 0;
+//	int imax = 0;
+//	for (int i = 0; i < f; i++)
+//	{
+//		if (ar[i] > Max)
+//		{
+//			Max = ar[i];
+//			imax = i;
+//		}
+//		if (ar[i] < Min)
+//		{
+//			Min = ar[i];
+//			imin = i;
+//		}
+//	}
+//	cout << "MINIMUM = " << Min << " POSITION " << imin << "\n";
+//	cout << "MAXIMUM = " << Max << " POSITION " << imax << "\n";
+//}
+
+//void Element(int ar[], int g)
+//{
+//	int buf = 0;
+//	for (int i = 0; i < g / 2 ; i++)
+//	{
+//		buf = ar[i];
+//		ar[i] = ar[g - 1 - i];
+//		ar[g - 1 - i] = buf;
+//	}
+//}
 
 
 int main()
@@ -99,5 +167,41 @@ int main()
 	/*Func(1);*/
 
 	// TASK 5
+	/*int a = 0;
+	cin >> a;
+	prime(a);*/
+
+	// TASK 6
+
+	
+	/*cout << Func(1, 10);*/
+
+	// TASK 8
+
+	/*const int s = 5;
+	int ar[] = { 4,2,7,1,9 };
+	cout << sum(ar, s);*/
+
+	// TASK 9
+
+	/*int ar[] = { 4,2,7,1,9 };
+	MaxMin(ar, 5);*/
+
+	// TASK 10
+
+	/*int ar[] = { 4,2,7,1,9 , 5};
+
+	for (int i = 0; i < 6; i++)
+	{
+		cout << ar[i] << " ";
+	}
+	cout << "\n";
+
+     Element(ar, 6);
+
+	 for (int i = 0; i < 6; i++)
+	 {
+		 cout << ar[i] << " ";
+	 }*/
 }
 
